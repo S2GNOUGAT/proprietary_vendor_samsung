@@ -107,8 +107,5 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/lib/libsecril-client.so:system/lib/libsecril-client.so \
     $(LOCAL_PATH)/proprietary/system/lib/libtiutils.so:system/lib/libtiutils.so
 
+# not used proprietary files, using open source now
 #    $(LOCAL_PATH)/proprietary/system/bin/hostapd:system/bin/hostapd \
-
-# hostapd not used, it's build
-# wenn Build cm12.1-next, dann alles ab camera.vendor.t1.so auskommentieren
-
