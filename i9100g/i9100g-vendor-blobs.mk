@@ -77,14 +77,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/media/battery_charging_100.qmg:system/media/battery_charging_100.qmg \
     $(LOCAL_PATH)/proprietary/system/media/battery_error.qmg:system/media/battery_error.qmg \
     $(LOCAL_PATH)/proprietary/system/media/chargingwarning.qmg:system/media/chargingwarning.qmg \
-    $(LOCAL_PATH)/proprietary/system/usr/keychars/t1-gpio-keypad.kcm:system/usr/keychars/t1-gpio-keypad.kcm \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/melfas-touchkey.kl:system/usr/keylayout/melfas-touchkey.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keypad.kl:system/usr/keylayout/t1-gpio-keypad.kl \
-    $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keys.kl:system/usr/keylayout/t1-gpio-keys.kl \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/ducati-m3.bin:system/vendor/firmware/ducati-m3.bin \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
@@ -97,6 +89,16 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/usr/keychars/t1-gpio-keypad.kcm:system/usr/keychars/t1-gpio-keypad.kcm \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keypad.kl:system/usr/keylayout/t1-gpio-keypad.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/melfas-touchkey.kl:system/usr/keylayout/melfas-touchkey.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_jack.kl:system/usr/keylayout/sec_jack.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_key.kl:system/usr/keylayout/sec_key.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sec_touchkey.kl:system/usr/keylayout/sec_touchkey.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
+    $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keys.kl:system/usr/keylayout/t1-gpio-keys.kl
 
 
 # not used proprietary files, using open source now
