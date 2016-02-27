@@ -100,10 +100,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keys.kl:system/usr/keylayout/t1-gpio-keys.kl
 
+#PRODUCT_COPY_FILES += \
+#    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.vendor.t1.so:system/lib/hw/camera.vendor.t1.so
 
+    
 # not used proprietary files, using open source now
 #    $(LOCAL_PATH)/proprietary/system/bin/hostapd:system/bin/hostapd \
-#    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.vendor.t1.so:system/lib/hw/camera.vendor.t1.so \
 #    $(LOCAL_PATH)/proprietary/system/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
 #    $(LOCAL_PATH)/proprietary/system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so:system/lib/libOMX.TI.DUCATI1.MISC.SAMPLE.so \
 #    $(LOCAL_PATH)/proprietary/system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so:system/lib/libOMX.TI.DUCATI1.VIDEO.CAMERA.so \
