@@ -36,7 +36,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
     $(LOCAL_PATH)/proprietary/system/etc/wifi/nvram_net.txt_murata:system/etc/wifi/nvram_net.txt_murata \
     $(LOCAL_PATH)/proprietary/system/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
-    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so \
     $(LOCAL_PATH)/proprietary/system/lib/libPanoraMax3.so:system/lib/libPanoraMax3.so \
     $(LOCAL_PATH)/proprietary/system/lib/libQmageDecoder.so:system/lib/libQmageDecoder.so \
     $(LOCAL_PATH)/proprietary/system/lib/libakm.so:system/lib/libakm.so \
@@ -86,7 +85,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/vendor/firmware/BCM4330.hcd:system/vendor/firmware/BCM4330.hcd \
     $(LOCAL_PATH)/proprietary/system/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    $(LOCAL_PATH)/proprietary/system/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so \
     $(LOCAL_PATH)/proprietary/system/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/system/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so
 
@@ -100,9 +98,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/sii9234_rcp.kl:system/usr/keylayout/sii9234_rcp.kl \
     $(LOCAL_PATH)/proprietary/system/usr/keylayout/t1-gpio-keys.kl:system/usr/keylayout/t1-gpio-keys.kl
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/lib/hw/sensors.omap4.so:system/lib/hw/sensors.omap4.so
+    
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/system/vendor/lib/libstlport.so:system/vendor/lib/libstlport.so
+    
 #PRODUCT_COPY_FILES += \
 #    $(LOCAL_PATH)/proprietary/system/lib/hw/camera.vendor.t1.so:system/lib/hw/camera.vendor.t1.so
-
     
 # not used proprietary files, using open source now
 #    $(LOCAL_PATH)/proprietary/system/bin/hostapd:system/bin/hostapd \
