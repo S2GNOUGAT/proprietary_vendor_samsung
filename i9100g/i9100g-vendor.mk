@@ -16,3 +16,12 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/samsung/i9100g/overlay
 
 $(call inherit-product, vendor/samsung/i9100g/i9100g-vendor-blobs.mk)
+
+PRODUCT_PACKAGES += \
+   libdrmwvmplugin \
+   libwvdrmengine \
+   libdrmmtkutil \
+   libwvdrm_L3 \
+   libwvm \
+   libWVStreamControlAPI_L3
+
